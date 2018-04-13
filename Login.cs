@@ -22,7 +22,7 @@ namespace HotelDataBaseProj
 
         public static bool UserISLoggedIN;
 
-        private string userType = "";
+        public string userType = "";
         public HotelDataBase.UserTypes.Customer loggedContomer;
         public HotelDataBase.UserTypes.Employee loggedEmployee;
 

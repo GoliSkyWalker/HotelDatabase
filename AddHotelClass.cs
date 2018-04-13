@@ -45,6 +45,7 @@ namespace HotelDataBase
         {
             if (queryObject is TableTypes.Hotel)
             {
+                TableTypes.Hotel hotel = (TableTypes.Hotel)queryObject;
 
                 return "insert into Hotel(Hotel_Id, HotelName, Addrs, City, Phone_no)" +
                     "values('" + hotelInstance.Hotel_Id + "', '" + hotelInstance.Name + "', '"
@@ -53,12 +54,20 @@ namespace HotelDataBase
             
             if(queryObject is UserTypes.Employee)
             {
-                return "insert into Employee(Staff_Id , First_name , Last_name , DOB , Addrs , Phone_no , Email , Pass , Hotel_Id )"+
-            "values("+1, 'EmpFirstName1', 'EmpLastName1', '1998-01-11', 'EmpAddr1', '1', 'EmpEmail1', '1', 1),
+                UserTypes.Employee employee = (UserTypes.Employee)queryObject;
+                return "insert into Employee( First_name , Last_name , DOB , Addrs , Phone_no , Email , Pass , Hotel_Id )" +
+            "values('" + employee.First_Name + "', '" + employee.Last_name + "', '" + employee.Date_Of_Birth + "', '" + employee.Addr + "', '" + employee.Phone_Num + "', '" + employee.Email + "', '" +employee.Pass + "'," + hotelInstance.Hotel_Id + ")";
             }
-            
+            if (queryObject is TableTypes.Room)
+            {
+                TableTypes.Room room = (TableTypes.Room) queryObject;
+                return "insert into Room (Room_Id  ,Hotel_ID ,Room_Type ,Room_Description)" 
+                    +"values(" + room.Room_Id + "," + hotelInstance.Hotel_Id + ", '" + room.Room_Type + "', '" + room.Room_Description + "')";
+            }
+            return "";
 
-            
+
+
         }
         
         private string runQuery(string query)
