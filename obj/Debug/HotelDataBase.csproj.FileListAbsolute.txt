@@ -1,0 +1,23 @@
+c:\users\goli\documents\visual studio 2015\Projects\HotelDataBase\HotelDataBase\bin\Debug\HotelDataBase.exe.config
+c:\users\goli\documents\visual studio 2015\Projects\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.LoginForm.resources
+c:\users\goli\documents\visual studio 2015\Projects\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.Properties.Resources.resources
+c:\users\goli\documents\visual studio 2015\Projects\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.csproj.GenerateResource.Cache
+c:\users\goli\documents\visual studio 2015\Projects\HotelDataBase\HotelDataBase\bin\Debug\HotelDataBase.exe
+c:\users\goli\documents\visual studio 2015\Projects\HotelDataBase\HotelDataBase\bin\Debug\HotelDataBase.pdb
+c:\users\goli\documents\visual studio 2015\Projects\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.exe
+c:\users\goli\documents\visual studio 2015\Projects\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.pdb
+c:\users\goli\documents\visual studio 2015\Projects\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.AdminForm.resources
+c:\users\goli\documents\visual studio 2015\Projects\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.UserControl1.resources
+c:\users\goli\documents\visual studio 2015\Projects\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.csprojResolveAssemblyReference.cache
+C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\bin\Debug\HotelDataBase.exe.config
+C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\bin\Debug\HotelDataBase.exe
+C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\bin\Debug\HotelDataBase.pdb
+C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.csprojResolveAssemblyReference.cache
+C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.AdminForm.resources
+C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.LoginForm.resources
+C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.Properties.Resources.resources
+C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.UserControl1.resources
+C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.csproj.GenerateResource.cache
+C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.csproj.CoreCompileInputs.cache
+C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.exe
+C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.pdb
