@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -52,7 +53,8 @@
     <Compile Include="AdminForm.Designer.cs">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddHotelClass.cs" />
+    <Compile Include="AdminHotelManagementClass.cs" />
+    <Compile Include="CustomerSignIn.cs" />
     <Compile Include="Login.cs" />
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
@@ -62,16 +64,25 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserTypes.cs" />
-    <Compile Include="TableTypes.cs" />
-    <Compile Include="UserControl1.cs">
+    <Compile Include="CustomerSignInUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControl1.Designer.cs">
-      <DependentUpon>UserControl1.cs</DependentUpon>
+    <Compile Include="CustomerSignInUC.Designer.cs">
+      <DependentUpon>CustomerSignInUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserTypes.cs" />
+    <Compile Include="TableTypes.cs" />
+    <Compile Include="AdminHotelManagementUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminHotelManagementUC.Designer.cs">
+      <DependentUpon>AdminHotelManagementUC.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="AdminForm.resx">
       <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerSignInUC.resx">
+      <DependentUpon>CustomerSignInUC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
@@ -85,8 +96,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UserControl1.resx">
-      <DependentUpon>UserControl1.cs</DependentUpon>
+    <EmbeddedResource Include="AdminHotelManagementUC.resx">
+      <DependentUpon>AdminHotelManagementUC.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

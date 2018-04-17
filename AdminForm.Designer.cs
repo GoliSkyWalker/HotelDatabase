@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.userControl11 = new HotelDataBase.UserControl1();
+            this.userControl11 = new HotelDataBase.AdminHotelManagementUC();
             this.SuspendLayout();
             // 
             // userControl11
@@ -55,6 +55,6 @@
 
         #endregion
 
-        private UserControl1 userControl11;
+        private AdminHotelManagementUC userControl11;
     }
 }

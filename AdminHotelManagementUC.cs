@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HotelDataBase
 {
-    public partial class UserControl1 : UserControl
+    public partial class AdminHotelManagementUC : UserControl
     {
-        public UserControl1()
+        public AdminHotelManagementUC()
         {
             InitializeComponent();
         }
@@ -45,7 +45,8 @@ namespace HotelDataBase
             hotel.Hotel_Id = Int32.Parse(Hotel_id.Text);
             hotel.Phone_Num =Int32.Parse(Hotel_Phone_Num.Text);
             hotel.Name = Hotel_Name.Text;
-            string log =AddHotelClass.addHotel(hotel);
+            AdminHotelListManipulationClass HMInstance = new AdminHotelListManipulationClass();
+            string log =HMInstance.addHotel(hotel);
             MessageBox.Show(log);
 
         }

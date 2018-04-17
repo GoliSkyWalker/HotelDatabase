@@ -10,7 +10,7 @@ using System.Web;
 namespace HotelDataBaseProj
 {
     // a class to create info for customrer to login
-    public class CustomerLogin
+    public class CustomerSignIn
     {
         public const string CONNECTION_STRING = "Data Source=LOCALHOST;" +
                                                 "Initial Catalog=HotelModel;" +
@@ -37,8 +37,8 @@ namespace HotelDataBaseProj
         private string EnterIntoCustomerTable(UserTypes.Customer newCustomer)
         {
             string query = "insert into customers (First_name, Last_name, Addrs, Phone_no, Email,Pass)" +
-                           "values  ('" + newCustomer.First_Name + "', '" + newCustomer.Last_name+ "' , '" + newCustomer.Addr + "'" +
-                           " ," + newCustomer.Phone_Num + ",'" +newCustomer.Email+ "','" +newCustomer.Pass+ "' );";
+                           "values  ('" + newCustomer.First_Name + "', '" + newCustomer.Last_name + "' , '" + newCustomer.Addr + "'" +
+                           " ," + newCustomer.Phone_Num + ",'" + newCustomer.Email + "','" + newCustomer.Pass + "' );";
             return runInsertNewSignUpQuery(query);
         }
         private bool checkForDuplicate(UserTypes.Customer newCustomer)
@@ -75,12 +75,12 @@ namespace HotelDataBaseProj
             return log;
         }
 
-       
+
 
         private bool runCheckDuplicateQuery(string query)
         {
             SqlConnection conn = new SqlConnection();
-            string log ="";
+            string log = "";
             conn.ConnectionString = CONNECTION_STRING;
             try
             {

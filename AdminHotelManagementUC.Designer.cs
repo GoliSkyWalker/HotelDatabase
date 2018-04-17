@@ -1,6 +1,6 @@
 ﻿namespace HotelDataBase
 {
-    partial class UserControl1
+    partial class AdminHotelManagementUC
     {
         /// <summary> 
         /// Required designer variable.
