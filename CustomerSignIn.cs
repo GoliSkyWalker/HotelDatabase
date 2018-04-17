@@ -10,12 +10,11 @@ using System.Web;
 namespace HotelDataBaseProj
 {
     // a class to create info for customrer to login
-    public class CustomerSignIn
+    public class CustomerLogin
     {
-        public const string CONNECTION_STRING = "Data Source=LOCALHOST;" +
-                                                "Initial Catalog=HotelModel;" +
-                                                "User id=SA;" +
-                                                "Password=f3l!Xkjil;";
+        public const string CONNECTION_STRING = "Data Source=DESKTOP-SSOCU79;"
+              + "Initial Catalog = HotelModel ;"
+              + " Integrated Security = True";
 
         public string CreateAccount(UserTypes.Customer newCustomer)
         {
@@ -36,14 +35,14 @@ namespace HotelDataBaseProj
 
         private string EnterIntoCustomerTable(UserTypes.Customer newCustomer)
         {
-            string query = "insert into customers (First_name, Last_name, Addrs, Phone_no, Email,Pass)" +
-                           "values  ('" + newCustomer.First_Name + "', '" + newCustomer.Last_name + "' , '" + newCustomer.Addr + "'" +
-                           " ," + newCustomer.Phone_Num + ",'" + newCustomer.Email + "','" + newCustomer.Pass + "' );";
+            string query = "insert into customers (Customer_Id  ,First_name, Last_name, Addrs, Phone_no, Email,Pass)" +
+                           "values  ("+ newCustomer.Custome_Id+",'"+ newCustomer.First_Name + "', '" + newCustomer.Last_name+ "' , '" + newCustomer.Addr + "'" +
+                           " ," + newCustomer.Phone_Num + ",'" +newCustomer.Email+ "','" +newCustomer.Pass+ "' );";
             return runInsertNewSignUpQuery(query);
         }
         private bool checkForDuplicate(UserTypes.Customer newCustomer)
         {
-            string qurey = "Select * From Customer where email = '" + newCustomer.Email + "";
+            string qurey = "Select * From Customers where email = '" + newCustomer.Email + "'";
             return runCheckDuplicateQuery(qurey);
 
 
@@ -51,18 +50,18 @@ namespace HotelDataBaseProj
         private string runInsertNewSignUpQuery(string query)
         {
             string log = "";
-            SqlConnection conn = new SqlConnection();
+            SqlConnection conn2 = new SqlConnection();
 
-            conn.ConnectionString = CONNECTION_STRING;
+            conn2.ConnectionString = CONNECTION_STRING;
             try
             {
-                conn.Open();
-                SqlCommand command = new SqlCommand(query, conn);
+                conn2.Open();
+                SqlCommand command = new SqlCommand(query, conn2);
                 command.ExecuteNonQuery();
                 command.Dispose();
-                SqlDataReader reader = command.ExecuteReader();
+                
                 log += "insert new sigh up customer query executed";
-                conn.Close();
+                conn2.Close();
             }
 
             catch (Exception ex)
@@ -75,12 +74,12 @@ namespace HotelDataBaseProj
             return log;
         }
 
-
+       
 
         private bool runCheckDuplicateQuery(string query)
         {
             SqlConnection conn = new SqlConnection();
-            string log = "";
+            string log ="";
             conn.ConnectionString = CONNECTION_STRING;
             try
             {
@@ -111,7 +110,7 @@ namespace HotelDataBaseProj
                 return false;
             }
 
-            return false;
+            return true;
 
         }
     }
