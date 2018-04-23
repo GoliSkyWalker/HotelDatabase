@@ -16,8 +16,11 @@ C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.csproj
 C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.AdminForm.resources
 C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.LoginForm.resources
 C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.Properties.Resources.resources
-C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.UserControl1.resources
 C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.csproj.GenerateResource.cache
 C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.csproj.CoreCompileInputs.cache
 C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.exe
 C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.pdb
+C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.AdminHotelManagementUC.resources
+C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.CustomerSignInUC.resources
+C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.CustomerForm.resources
+C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.EmployeeForm.resources

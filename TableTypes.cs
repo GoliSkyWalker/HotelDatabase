@@ -20,7 +20,7 @@ namespace HotelDataBase
         public class Room
         {
             public int Room_Id { set; get; }
-            public string Hotel_ID { set; get; }
+            public int Hotel_ID { set; get; }
             public string Room_Type { set; get; }
             public string Room_Description { set; get; }
            
