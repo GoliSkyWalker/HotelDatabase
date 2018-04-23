@@ -72,15 +72,15 @@
             this.button2.Text = "Create account";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-
             // 
             // customerSignInUC1
             // 
-            this.customerSignInUC1.Visible = false;
             this.customerSignInUC1.Location = new System.Drawing.Point(31, 0);
             this.customerSignInUC1.Name = "customerSignInUC1";
             this.customerSignInUC1.Size = new System.Drawing.Size(446, 433);
             this.customerSignInUC1.TabIndex = 4;
+            this.customerSignInUC1.Visible = false;
+            this.customerSignInUC1.Load += new System.EventHandler(this.customerSignInUC1_Load);
             // 
             // LoginForm
             // 

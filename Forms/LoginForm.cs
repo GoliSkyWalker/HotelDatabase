@@ -53,5 +53,10 @@ namespace HotelDataBase
             customerSignInUC1.Visible = true;
             this.customerSignInUC1.BringToFront();
         }
+
+        private void customerSignInUC1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
