@@ -67,11 +67,6 @@
     <Compile Include="Forms\EmployeeForm.Designer.cs">
       <DependentUpon>EmployeeForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="HotelModelDataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>HotelModelDataSet1.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Login.cs" />
     <Compile Include="Forms\LoginForm.cs">
       <SubType>Form</SubType>
@@ -122,17 +117,6 @@
     <EmbeddedResource Include="Forms\AdminHotelManagementUC.resx">
       <DependentUpon>AdminHotelManagementUC.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="HotelModelDataSet1.xsc">
-      <DependentUpon>HotelModelDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="HotelModelDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>HotelModelDataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="HotelModelDataSet1.xss">
-      <DependentUpon>HotelModelDataSet1.xsd</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -40,12 +40,6 @@
             this.Bt_CreateAccount = new System.Windows.Forms.Button();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.customer_IdTextBox = new System.Windows.Forms.TextBox();
-            this.first_nameTextBox = new System.Windows.Forms.TextBox();
-            this.last_nameTextBox = new System.Windows.Forms.TextBox();
-            this.addrsTextBox = new System.Windows.Forms.TextBox();
-            this.phone_noTextBox = new System.Windows.Forms.TextBox();
-            this.emailTextBox = new System.Windows.Forms.TextBox();
-            this.passTextBox = new System.Windows.Forms.TextBox();
             this.TB_CustomerLogin_LastName = new System.Windows.Forms.TextBox();
             this.TB_CustomerLogin_FirstName = new System.Windows.Forms.TextBox();
             this.TB_CustomerLogin_Password = new System.Windows.Forms.TextBox();
@@ -111,13 +105,6 @@
             first_nameLabel.TabIndex = 26;
             first_nameLabel.Text = "First name:";
             // 
-            // first_nameTextBox
-            // 
-            this.first_nameTextBox.Location = new System.Drawing.Point(350, 77);
-            this.first_nameTextBox.Name = "first_nameTextBox";
-            this.first_nameTextBox.Size = new System.Drawing.Size(100, 20);
-            this.first_nameTextBox.TabIndex = 27;
-            // 
             // last_nameLabel
             // 
             last_nameLabel.AutoSize = true;
@@ -126,13 +113,6 @@
             last_nameLabel.Size = new System.Drawing.Size(59, 13);
             last_nameLabel.TabIndex = 28;
             last_nameLabel.Text = "Last name:";
-            // 
-            // last_nameTextBox
-            // 
-            this.last_nameTextBox.Location = new System.Drawing.Point(350, 103);
-            this.last_nameTextBox.Name = "last_nameTextBox";
-            this.last_nameTextBox.Size = new System.Drawing.Size(100, 20);
-            this.last_nameTextBox.TabIndex = 29;
             // 
             // addrsLabel
             // 
@@ -143,13 +123,6 @@
             addrsLabel.TabIndex = 30;
             addrsLabel.Text = "Addrs:";
             // 
-            // addrsTextBox
-            // 
-            this.addrsTextBox.Location = new System.Drawing.Point(350, 129);
-            this.addrsTextBox.Name = "addrsTextBox";
-            this.addrsTextBox.Size = new System.Drawing.Size(100, 20);
-            this.addrsTextBox.TabIndex = 31;
-            // 
             // phone_noLabel
             // 
             phone_noLabel.AutoSize = true;
@@ -158,13 +131,6 @@
             phone_noLabel.Size = new System.Drawing.Size(56, 13);
             phone_noLabel.TabIndex = 32;
             phone_noLabel.Text = "Phone no:";
-            // 
-            // phone_noTextBox
-            // 
-            this.phone_noTextBox.Location = new System.Drawing.Point(350, 155);
-            this.phone_noTextBox.Name = "phone_noTextBox";
-            this.phone_noTextBox.Size = new System.Drawing.Size(100, 20);
-            this.phone_noTextBox.TabIndex = 33;
             // 
             // emailLabel
             // 
@@ -175,13 +141,6 @@
             emailLabel.TabIndex = 34;
             emailLabel.Text = "Email:";
             // 
-            // emailTextBox
-            // 
-            this.emailTextBox.Location = new System.Drawing.Point(350, 181);
-            this.emailTextBox.Name = "emailTextBox";
-            this.emailTextBox.Size = new System.Drawing.Size(100, 20);
-            this.emailTextBox.TabIndex = 35;
-            // 
             // passLabel
             // 
             passLabel.AutoSize = true;
@@ -190,13 +149,6 @@
             passLabel.Size = new System.Drawing.Size(33, 13);
             passLabel.TabIndex = 36;
             passLabel.Text = "Pass:";
-            // 
-            // passTextBox
-            // 
-            this.passTextBox.Location = new System.Drawing.Point(350, 207);
-            this.passTextBox.Name = "passTextBox";
-            this.passTextBox.Size = new System.Drawing.Size(100, 20);
-            this.passTextBox.TabIndex = 37;
             // 
             // TB_CustomerLogin_LastName
             // 
@@ -247,17 +199,11 @@
             this.Controls.Add(customer_IdLabel);
             this.Controls.Add(this.customer_IdTextBox);
             this.Controls.Add(first_nameLabel);
-            this.Controls.Add(this.first_nameTextBox);
             this.Controls.Add(last_nameLabel);
-            this.Controls.Add(this.last_nameTextBox);
             this.Controls.Add(addrsLabel);
-            this.Controls.Add(this.addrsTextBox);
             this.Controls.Add(phone_noLabel);
-            this.Controls.Add(this.phone_noTextBox);
             this.Controls.Add(emailLabel);
-            this.Controls.Add(this.emailTextBox);
             this.Controls.Add(passLabel);
-            this.Controls.Add(this.passTextBox);
             this.Controls.Add(this.TB_CustomerLogin_Address);
             this.Controls.Add(this.TB_CustomerLogin_PhoneNum);
             this.Controls.Add(this.TB_CustomerLogin_Email);
@@ -280,12 +226,6 @@
         private System.Windows.Forms.Button Bt_CreateAccount;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.TextBox customer_IdTextBox;
-        private System.Windows.Forms.TextBox first_nameTextBox;
-        private System.Windows.Forms.TextBox last_nameTextBox;
-        private System.Windows.Forms.TextBox addrsTextBox;
-        private System.Windows.Forms.TextBox phone_noTextBox;
-        private System.Windows.Forms.TextBox emailTextBox;
-        private System.Windows.Forms.TextBox passTextBox;
         private System.Windows.Forms.TextBox TB_CustomerLogin_LastName;
         private System.Windows.Forms.TextBox TB_CustomerLogin_FirstName;
         private System.Windows.Forms.TextBox TB_CustomerLogin_Password;
