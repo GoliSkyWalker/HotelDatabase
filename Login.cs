@@ -186,7 +186,7 @@ namespace HotelDataBaseProj
             loggedEmployee.Phone_Num = Int32.Parse(reader["Phone_no"].ToString());
             loggedEmployee.Email = reader["Email"].ToString();
             loggedEmployee.Pass = reader["Pass"].ToString();
-            loggedEmployee.Hotel_ID = reader["Hotel_Id"].ToString();
+            loggedEmployee.Hotel_ID = Int32.Parse(reader["Hotel_Id"].ToString());
 
             // Staff_Id ,First_name ,Last_name ,DOB ,Addrs ,Phone_no ,Email ,Pass ,Hotel_Id 
         }

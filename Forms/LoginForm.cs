@@ -30,10 +30,14 @@ namespace HotelDataBase
             } 
             else if(HotelDataBaseProj.Login.UserISLoggedIN && HotelDataBaseProj.Login.userType.Equals("Employee"))
             {
+                new EmployeeForm().Show();
+                this.Hide();
+
             }
             else if(HotelDataBaseProj.Login.UserISLoggedIN && HotelDataBaseProj.Login.userType.Equals("Customer"))
             {
-
+                new CustomerForm().Show();
+                this.Hide();
             }
         }
         

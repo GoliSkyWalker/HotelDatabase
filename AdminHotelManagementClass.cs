@@ -52,7 +52,7 @@ namespace HotelDataBase
             }
             
         }
-        private String AddRoomsToHotel(TableTypes.Room room)
+        public String AddRoomsToHotel(TableTypes.Room room)
         {
             
             if (hotelInstance == null)

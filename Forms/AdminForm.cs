@@ -17,9 +17,6 @@ namespace HotelDataBase
             InitializeComponent();
         }
 
-        private void userControl11_Load(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }

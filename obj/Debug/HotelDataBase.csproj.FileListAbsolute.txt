@@ -22,3 +22,5 @@ C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.exe
 C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.pdb
 C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.AdminHotelManagementUC.resources
 C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.CustomerSignInUC.resources
+C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.CustomerForm.resources
+C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.EmployeeForm.resources

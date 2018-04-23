@@ -33,20 +33,22 @@
             // 
             // userControl11
             // 
-            this.userControl11.Location = new System.Drawing.Point(59, 12);
+            this.userControl11.Location = new System.Drawing.Point(47, 11);
+            this.userControl11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.userControl11.Name = "userControl11";
-            this.userControl11.Size = new System.Drawing.Size(1241, 584);
+            this.userControl11.Size = new System.Drawing.Size(931, 474);
             this.userControl11.TabIndex = 0;
-            this.userControl11.Load += new System.EventHandler(this.userControl11_Load);
+            //this.userControl11.Load += new System.EventHandler(this.use);
             // 
             // AdminForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1255, 652);
+            this.ClientSize = new System.Drawing.Size(1050, 530);
             this.Controls.Add(this.userControl11);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "AdminForm";
             this.Text = "Form1";
             this.ResumeLayout(false);

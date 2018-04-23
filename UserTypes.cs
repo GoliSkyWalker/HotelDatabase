@@ -26,7 +26,7 @@ namespace HotelDataBase
             public int Phone_Num { set; get; }
             public string Email { set; get; }
             public string Pass { set; get; }
-            public string Hotel_ID { set; get; }
+            public int Hotel_ID { set; get; }
 
             public string Date_Of_Birth { set; get; }
 
