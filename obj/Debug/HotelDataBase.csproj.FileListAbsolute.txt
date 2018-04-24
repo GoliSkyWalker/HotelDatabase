@@ -24,3 +24,4 @@ C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.AdminH
 C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.CustomerSignInUC.resources
 C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.CustomerForm.resources
 C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.EmployeeForm.resources
+C:\Users\goli\Desktop\HotelDataBase\HotelDataBase\obj\Debug\HotelDataBase.CustomerSearchAndReserveUC.resources

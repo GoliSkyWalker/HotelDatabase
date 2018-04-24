@@ -16,6 +16,13 @@ namespace HotelDataBase
             public string City { set; get; }
             public int Phone_Num { set; get; }
         }
+ public class Payment
+        {
+            public int PaymentID { set; get; }
+            public string CustonmerID { set; get; }
+            public string CreditCardNo { set; get; }
+            public string ExpireDate{ set; get; }
+        }
 
         public class Room
         {

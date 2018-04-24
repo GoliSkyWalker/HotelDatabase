@@ -28,13 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.customerSearchAndReserveUC1 = new HotelDataBase.CustomerSearchAndReserveUC();
             this.SuspendLayout();
+            // 
+            // customerSearchAndReserveUC1
+            // 
+            this.customerSearchAndReserveUC1.Location = new System.Drawing.Point(22, 12);
+            this.customerSearchAndReserveUC1.Name = "customerSearchAndReserveUC1";
+            this.customerSearchAndReserveUC1.Size = new System.Drawing.Size(1080, 485);
+            this.customerSearchAndReserveUC1.TabIndex = 0;
             // 
             // CustomerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1208, 570);
+            this.Controls.Add(this.customerSearchAndReserveUC1);
             this.Name = "CustomerForm";
             this.Text = "CustomerForm";
             this.ResumeLayout(false);
@@ -42,5 +51,7 @@
         }
 
         #endregion
+
+        private CustomerSearchAndReserveUC customerSearchAndReserveUC1;
     }
 }

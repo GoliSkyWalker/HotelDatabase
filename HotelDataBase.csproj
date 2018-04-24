@@ -47,6 +47,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomerFuntionalities.cs" />
+    <Compile Include="Forms\CustomerSearchAndReserveUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\CustomerSearchAndReserveUC.Designer.cs">
+      <DependentUpon>CustomerSearchAndReserveUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DateManagement.cs" />
     <Compile Include="Forms\AdminForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +98,9 @@
     <Compile Include="Forms\AdminHotelManagementUC.Designer.cs">
       <DependentUpon>AdminHotelManagementUC.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Forms\CustomerSearchAndReserveUC.resx">
+      <DependentUpon>CustomerSearchAndReserveUC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\AdminForm.resx">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </EmbeddedResource>
