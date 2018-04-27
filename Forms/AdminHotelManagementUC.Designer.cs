@@ -68,10 +68,10 @@ namespace HotelDataBase
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.Hotel_Staff_DOB = new System.Windows.Forms.DateTimePicker();
-            this.hotelModelDataSet = new HotelDataBase.HotelModelDataSet();
+           // this.hotelModelDataSet = new HotelDataBase.HotelModelDataSet();
             this.employeeBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.employeeTableAdapter = new HotelDataBase.HotelModelDataSetTableAdapters.EmployeeTableAdapter();
-            this.tableAdapterManager = new HotelDataBase.HotelModelDataSetTableAdapters.TableAdapterManager();
+          //  this.employeeTableAdapter = new HotelDataBase.HotelModelDataSetTableAdapters.EmployeeTableAdapter();
+           // this.tableAdapterManager = new HotelDataBase.HotelModelDataSetTableAdapters.TableAdapterManager();
             this.employeeDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -95,7 +95,7 @@ namespace HotelDataBase
             room_DescriptionLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Hotel_Employee_DataGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Hotel_DataGrid)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hotelModelDataSet)).BeginInit();
+           // ((System.ComponentModel.ISupportInitialize)(this.hotelModelDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeeBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeeDataGridView)).BeginInit();
             this.SuspendLayout();
@@ -431,30 +431,9 @@ namespace HotelDataBase
             // 
             // hotelModelDataSet
             // 
-            this.hotelModelDataSet.DataSetName = "HotelModelDataSet";
-            this.hotelModelDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // employeeBindingSource
-            // 
-            this.employeeBindingSource.DataMember = "Employee";
-            this.employeeBindingSource.DataSource = this.hotelModelDataSet;
-            this.employeeBindingSource.CurrentChanged += new System.EventHandler(this.employeeBindingSource_CurrentChanged);
-            // 
-            // employeeTableAdapter
-            // 
-            this.employeeTableAdapter.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager
-            // 
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.BookingTableAdapter = null;
-            this.tableAdapterManager.CustomersTableAdapter = null;
-            this.tableAdapterManager.EmployeeTableAdapter = this.employeeTableAdapter;
-            this.tableAdapterManager.HotelTableAdapter = null;
-            this.tableAdapterManager.PaymentTableAdapter = null;
-            this.tableAdapterManager.Room_typeTableAdapter = null;
-            this.tableAdapterManager.RoomTableAdapter = null;
-            this.tableAdapterManager.UpdateOrder = HotelDataBase.HotelModelDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+          
+           
+            
             // 
             // employeeDataGridView
             // 
@@ -578,7 +557,7 @@ namespace HotelDataBase
             this.Load += new System.EventHandler(this.AdminHotelManagementUC_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Hotel_Employee_DataGrid)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Hotel_DataGrid)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hotelModelDataSet)).EndInit();
+           // ((System.ComponentModel.ISupportInitialize)(this.hotelModelDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeeBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeeDataGridView)).EndInit();
             this.ResumeLayout(false);
@@ -615,10 +594,10 @@ namespace HotelDataBase
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DateTimePicker Hotel_Staff_DOB;
-        private HotelModelDataSet hotelModelDataSet;
+        //private HotelModelDataSet hotelModelDataSet;
         private System.Windows.Forms.BindingSource employeeBindingSource;
-        private HotelModelDataSetTableAdapters.EmployeeTableAdapter employeeTableAdapter;
-        private HotelModelDataSetTableAdapters.TableAdapterManager tableAdapterManager;
+        //private HotelModelDataSetTableAdapters.EmployeeTableAdapter employeeTableAdapter;
+       // private HotelModelDataSetTableAdapters.TableAdapterManager tableAdapterManager;
         private System.Windows.Forms.DataGridView employeeDataGridView;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;

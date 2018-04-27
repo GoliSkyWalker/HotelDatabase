@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -47,6 +47,15 @@ namespace HotelDataBase
 
                 
         }
+	 public class Payment
++        {
++            public int PaymentID { set; get; }
++            public string CustonmerID { set; get; }
++            public string CreditCardNo { set; get; }
++            public string ExpireDate{ set; get; }
++        }
+
+
 
     }
 
