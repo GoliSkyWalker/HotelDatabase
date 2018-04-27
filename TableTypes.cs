@@ -33,6 +33,21 @@ namespace HotelDataBase
             public string HotelPrice { set; get; }
         }
 
+
+        public class Booking
+        {
+            public int Booking_id { set; get; }
+            public int Customer_id { set; get; }
+            public int Room_id { set; get; }
+            public int Hotel_id { set; get; }
+            public int Payment_id { set; get; }
+            public DateTime Booking_Date { set; get; }
+            public DateTime Checkin_Date { set; get; }
+            public int No_of_Nights { set; get; }
+
+                
+        }
+
     }
 
 
