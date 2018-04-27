@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{5B04009F-F82E-4869-B55C-2E43A128B40C}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>HotelDataBase</RootNamespace>
     <AssemblyName>HotelDataBase</AssemblyName>
@@ -33,6 +33,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -47,6 +50,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BookingManipulation.cs" />
+    <Compile Include="DateManagement.cs" />
     <Compile Include="Forms\AdminForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,10 +72,11 @@
     <Compile Include="Forms\EmployeeForm.Designer.cs">
       <DependentUpon>EmployeeForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="HotelModelDataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>HotelModelDataSet1.xsd</DependentUpon>
+    <Compile Include="Forms\Queries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Queries.Designer.cs">
+      <DependentUpon>Queries.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs" />
     <Compile Include="Forms\LoginForm.cs">
@@ -110,6 +116,9 @@
     <EmbeddedResource Include="Forms\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Queries.resx">
+      <DependentUpon>Queries.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -122,17 +131,6 @@
     <EmbeddedResource Include="Forms\AdminHotelManagementUC.resx">
       <DependentUpon>AdminHotelManagementUC.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="HotelModelDataSet1.xsc">
-      <DependentUpon>HotelModelDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="HotelModelDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>HotelModelDataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="HotelModelDataSet1.xss">
-      <DependentUpon>HotelModelDataSet1.xsd</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -10,7 +10,8 @@ using System.Web;
 namespace HotelDataBaseProj
 {
     // a class to create info for customrer to login
-    public class CustomerLogin
+    public class CustomerSignInClass
+
     {
         public const string CONNECTION_STRING = "Data Source=DESKTOP-SSOCU79;"
               + "Initial Catalog = HotelModel ;"
