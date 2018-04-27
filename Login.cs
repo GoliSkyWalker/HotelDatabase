@@ -11,7 +11,7 @@ namespace HotelDataBaseProj
 
     public class Login
     {
-        public const string CONNECTION_STRING = "Data Source=DESKTOP-SSOCU79;"
+        public const string CONNECTION_STRING = "Data Source=DESKTOP-BD9CASU\\SQLEXPRESS;"
             + "Initial Catalog = HotelModel ;"
             + " Integrated Security = True";
         //user types
@@ -32,6 +32,7 @@ namespace HotelDataBaseProj
         public string StartLogin(string email, string password)
         {
 
+            System.Diagnostics.Debug.WriteLine("Hello");
 
             Login instane = new Login();
             //start logging
@@ -153,7 +154,7 @@ namespace HotelDataBaseProj
 
             }
 
-            return "login error ";
+            return "";
 
         }
 

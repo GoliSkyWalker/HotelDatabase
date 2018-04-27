@@ -15,9 +15,9 @@ namespace HotelDataBase
     public  class AdminHotelListManipulationClass
     {
         HotelDataBase.TableTypes.Hotel currentHotel;
-        public const string CONNECTION_STRING = "Data Source=DESKTOP-SSOCU79;"
-            + "Initial Catalog = HotelModel ;"
-            + " Integrated Security = True";
+        public const string CONNECTION_STRING = "Data Source=DESKTOP-BD9CASU\\SQLEXPRESS;"
+           + "Initial Catalog = HotelModel ;"
+           + " Integrated Security = True";
 
         static TableTypes.Hotel hotelInstance;
         public string addHotel(TableTypes.Hotel hotel)
@@ -32,8 +32,8 @@ namespace HotelDataBase
         private string AddHotelToSqlTables(HotelDataBase.TableTypes.Hotel hotel)
         {
             //create query and run it
-            runQuery(constructQuery(hotel));
-            return "";
+            return runQuery(constructQuery(hotel));
+            
         }
         
         

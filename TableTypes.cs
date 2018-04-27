@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,13 +16,6 @@ namespace HotelDataBase
             public string City { set; get; }
             public int Phone_Num { set; get; }
         }
- public class Payment
-        {
-            public int PaymentID { set; get; }
-            public string CustonmerID { set; get; }
-            public string CreditCardNo { set; get; }
-            public string ExpireDate{ set; get; }
-        }
 
         public class Room
         {
@@ -39,6 +32,30 @@ namespace HotelDataBase
             public int Room_Type { set; get; }
             public string HotelPrice { set; get; }
         }
+
+
+        public class Booking
+        {
+            public int Booking_id { set; get; }
+            public int Customer_id { set; get; }
+            public int Room_id { set; get; }
+            public int Hotel_id { set; get; }
+            public int Payment_id { set; get; }
+            public DateTime Booking_Date { set; get; }
+            public DateTime Checkin_Date { set; get; }
+            public int No_of_Nights { set; get; }
+
+                
+        }
+	 public class Payment
++        {
++            public int PaymentID { set; get; }
++            public string CustonmerID { set; get; }
++            public string CreditCardNo { set; get; }
++            public string ExpireDate{ set; get; }
++        }
+
+
 
     }
 
